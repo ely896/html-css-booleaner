@@ -1,7 +1,26 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    text-align: justify;
+}
+
+
 header{
     background-image: url(img/pattern.png);
     background-color: rgb(21, 173, 173);
     height: 250px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
 }
 
 #booleaner {
@@ -14,3 +33,48 @@ header{
     font-size: x-large;
 }
 
+.color_text {
+    color: grey;
+}
+
+#color_link{
+    color: rgb(97, 13, 82);
+    font-size: x-large;
+}
+
+table {
+    border-spacing: 0;
+}
+
+thead{
+    background-color: rgb(8, 184, 184);
+    color: aliceblue;
+}
+
+#th_width{
+    width: 50%;
+}
+.color_raw {
+    background-color: aquamarine;
+}
+
+.container1 {
+    width: 300px;
+    height: 200px;
+    color: azure;
+    padding: 0.5rem;
+    background-image: url(img/monitor.jpg);
+      
+}
+
+.container2 {
+    width: 300px;
+    height: 200px;
+    color: azure;
+    padding: 0.5rem;
+    background-image: url(img/graph.jpg);
+}
+
+h3 {
+    color: gray;
+}
